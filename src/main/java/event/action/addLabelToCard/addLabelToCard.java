@@ -1,10 +1,8 @@
-import event.Action;
-import event.action.updateCard.Data;
-import event.action.updateCard.Display;
-import event.action.updateCard.Limits;
-import event.action.updateCard.MemberCreator_;
+package event.action.addLabelToCard;
 
-public class updateCard extends Action {
+import event.Action;
+
+public class addLabelToCard extends Action {
 
     public String id;
     public String idMemberCreator;

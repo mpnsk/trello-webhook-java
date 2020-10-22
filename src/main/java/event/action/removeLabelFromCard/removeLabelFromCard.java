@@ -1,10 +1,8 @@
-import event.Action;
-import event.action.addLabelToCard.Data;
-import event.action.addLabelToCard.Display;
-import event.action.addLabelToCard.Limits;
-import event.action.addLabelToCard.MemberCreator_;
+package event.action.removeLabelFromCard;
 
-public class addLabelToCard extends Action {
+import event.Action;
+
+public class removeLabelFromCard extends Action {
 
     public String id;
     public String idMemberCreator;

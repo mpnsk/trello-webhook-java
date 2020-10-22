@@ -1,13 +1,9 @@
 package event.model;
 
 
-import lombok.Data;
-
 import java.util.Date;
 import java.util.List;
 
-@Data
-//@JsonIgnoreProperties(ignoreUnknown = true)
 public class Model {
 
     public String id;
@@ -29,8 +25,6 @@ public class Model {
     public List<Object> idMembersVoted;
     public int idShort;
     public String idAttachmentCover;
-
-
     public List<String> idLabels;
     public Boolean manualCoverAttachment;
     public String name;

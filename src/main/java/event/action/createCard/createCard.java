@@ -1,10 +1,8 @@
-import event.Action;
-import event.action.createList.Data;
-import event.action.createList.Display;
-import event.action.createList.Limits;
-import event.action.createList.MemberCreator_;
+package event.action.createCard;
 
-public class createList extends Action {
+import event.Action;
+
+public class createCard extends Action {
 
     public String id;
     public String idMemberCreator;
