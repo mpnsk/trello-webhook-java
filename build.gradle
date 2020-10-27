@@ -1,5 +1,6 @@
 plugins {
     id 'java-library'
+    id 'maven-publish'
 }
 java {
     toolchain {
@@ -7,7 +8,7 @@ java {
     }
 }
 
-group 'org.example'
+group 'com.github.mpnsk'
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -26,4 +27,14 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
 }
